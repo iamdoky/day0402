@@ -1,16 +1,26 @@
 import numpy as np
-# 점수가 가장 높은 학생의 이름을 출력 / 동점인 사람도 출력
-name = ['원진아','슬기','이솜','청하','박주호','김경민','김태리']
-score = [100,100,96,88,91,18,100]
-n = np.array(name)
-s = np.array(score)
-m = max(score)
-sc = np.argmax(score)
-w = np.argwhere(score == np.max(score))
-# w = w.reshape(1,3)[0]
-print(w)
-print(n[w])
 
+a = [[1,2,3],[4,5,6],[[1,2,3,],[4,5,6]]]
+arr = np.array(a)
+arr2= np.flatiter(a)
+print(arr)
+print(arr2)
+
+
+
+
+# 점수가 가장 높은 학생의 이름을 출력 / 동점인 사람도 출력
+# name = ['원진아','슬기','이솜','청하','박주호','김경민','김태리']
+# score = [100,100,96,88,91,18,100]
+# n = np.array(name)
+# s = np.array(score)
+# m = max(score)
+# sc = np.argmax(score)
+# w = np.argwhere(score == np.max(score))
+# # w = w.reshape(1,3)[0]
+# print(w)
+# print(n[w])
+#
 
 # winner = np.argwhere(listy == np.amax(listy))
 
