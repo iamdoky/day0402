@@ -7,6 +7,7 @@ s = np.array(score)
 m = max(score)
 sc = np.argmax(score)
 w = np.argwhere(score == np.max(score))
+# w = w.reshape(1,3)[0]
 print(w)
 print(n[w])
 
